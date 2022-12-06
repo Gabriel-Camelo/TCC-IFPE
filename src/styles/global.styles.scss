@@ -1,0 +1,63 @@
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+
+@import "../components/navigation/navbar/navbar.styles.scss";
+@import "../components/navigation/searchBar/search.styles.scss";
+
+:root{
+  --background: #F2F2F2;
+  --element: #C4C4CC;
+  --bars: #C4C4CC;
+  --stroke-divider: #8D8D99;
+  --title: #121214;
+  --text: #323238;
+  --sup-text: #384633;
+  --white: #fff;
+  --red-error: #BD444E;
+
+  --green-dark: #2EA640;
+  --green: #2EA640;
+  --green-light: #2EA640;
+  --red-error: #F75A68;
+}
+
+:root.dark{
+  --background: #09090A;
+  --element: #121214;
+  --bars: #121214;
+  --stroke-divider: #323238;
+  --title: #E1E1E6;
+  --text: #C4C4CC;
+  --sup-text: #2EA640;
+  --white: #fff;
+
+  --green-dark: #2EA640;
+  --green: #2EA640;
+  --green-light: #2EA640;
+  --red-error: #F75A68;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: #323238;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,36 @@
+#navbar {
+  height: 10vh;
+  max-height: 80px;
+  min-height: 60px;
+}
+
+#navlink {
+  color: $gray-700;
+}
+#navlink:hover {
+  border-bottom: 4px solid --green;
+}
+#navlink:focus{
+  border-bottom: 4px solid --green;
+}
+#navlink:active{
+  border-bottom: 4px solid --green;
+}
+
+@media screen and (max-width: 425px) {  
+  #navlink {
+    color: $gray-700;
+  }
+  #navlink:hover {
+    border-left: 4px solid --green;
+    border-bottom: 0;
+  }
+  #navlink:focus{
+    border-left: 4px solid --green;
+    border-bottom: 0;
+  }
+  #navlink:active{
+    border-left: 4px solid --green;
+    border-bottom: 0;
+  }
+}
